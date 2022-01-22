@@ -35,6 +35,8 @@ services:
   db:
     image: mysql:5.7
     restart: on-failure
+    container_name: mysql
+    restart: always
     env_file:
       - .env
     environment:

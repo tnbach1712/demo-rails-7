@@ -2,5 +2,8 @@
   "name": "demo-rails-7",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.0.15"
+  }
 }
